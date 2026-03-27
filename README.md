@@ -13,7 +13,7 @@ Personal Computer Turbo C Compiler
 7.	Choose the file and verify the go back protocol operation.
 
 # PROGRAM
-
+```
 #include <stdio.h>
 /* Assume 7 frames of data are to sent using GO BACK N ARQW*/ #define window_size 4
 void main()
@@ -40,12 +40,9 @@ printf("No Acknowlegement for frame %d... \n",ack); printf("Resending frames sta
 }
 printf("\n All frames sent successfully.\n");
 }
-
+```
 # OUTPUT
+<img width="652" height="549" alt="image" src="https://github.com/user-attachments/assets/93ae86c0-88f2-4fb1-a5ef-75eea9855cb1" />
 
- 
-
-
-
-
-# RESULT: Thus the Go-Back-N protocol-Sliding Window was implemented and the output is verified successfully.
+ # RESULT: 
+ Thus the Go-Back-N protocol-Sliding Window was implemented and the output is verified successfully.
